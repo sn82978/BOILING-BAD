@@ -1,14 +1,10 @@
-import LatestVideo from "../components/LatestVideo"
-import LatestRecipe from "../components/LatestRecipe"
-import AboutUs from "../components/AboutUs"
-import styles from "./Home.module.css"
+import styles from "./Pages.module.css"
 
 function Home() {
   return (
-    <div className={styles.home}>
-      <LatestVideo />
-      <LatestRecipe />
-      <AboutUs />
+    <div className={styles.page}>
+      <h1>Welcome to Our Website</h1>
+      <p>This is the home page. Explore our recipes and videos!</p>
     </div>
   )
 }
