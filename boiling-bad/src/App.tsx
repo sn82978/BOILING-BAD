@@ -12,16 +12,16 @@ function App() {
         <nav className={styles.nav}>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">boil</Link>
             </li>
             <li>
-              <Link to="/recipes">Recipes</Link>
+              <Link to="/recipes">boils</Link>
             </li>
             <li>
-              <Link to="/videos">Videos</Link>
+              <Link to="/videos">boiling</Link>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+              <Link to="/about">boiled</Link>
             </li>
           </ul>
         </nav>

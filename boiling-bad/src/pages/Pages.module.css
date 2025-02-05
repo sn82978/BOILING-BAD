@@ -1,0 +1,52 @@
+.timeline {
+  position: relative;
+  margin: 50px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  width: 2px;
+  background: #ccc;
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.timelinePoint {
+  position: absolute;
+  left: 16px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border: 2px solid #ccc;
+}
+
+.timelineContent {
+  margin-left: 40px;
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.timelineContent:hover {
+  background: #e8e8e8;
+}
+
+.timelineContent h3 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.hiddenLink {
+  display: none;
+}
