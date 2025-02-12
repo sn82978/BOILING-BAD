@@ -15,13 +15,13 @@ function App() {
         <nav className={styles.nav}>
           <ul>
             <li>
-              <Link to="/">home</Link>
+              <Link to="/BOILING-BAD">home</Link>
             </li>
             <li>
-              <Link to="/boiling-bad">boiling bad</Link>
+              <Link to="/BOILING-BAD/boiling-bad">boiling bad</Link>
             </li>
             <li>
-              <Link to="/music">music</Link>
+              <Link to="/BOILING-BAD/music">music</Link>
             </li>
           </ul>
         </nav>
