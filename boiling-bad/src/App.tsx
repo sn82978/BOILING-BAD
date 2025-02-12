@@ -10,7 +10,7 @@ import styles from "./App.module.css"
 
 function App() {
   return (
-    <Router>
+    <Router basename="/BOILING-BAD">
       <div className={styles.app}>
         <nav className={styles.nav}>
           <ul>
