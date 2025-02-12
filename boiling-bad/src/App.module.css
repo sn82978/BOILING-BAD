@@ -1,8 +1,13 @@
+body {
+  background-color: #FCF5E5;
+}
+
 .app {
-  font-family: Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #FCF5E5;
 }
 
 .nav ul {
@@ -10,7 +15,7 @@
   padding: 0;
   display: flex;
   justify-content: space-around;
-  background-color: #f0f0f0;
+  background-color: #FCF5E5;
   padding: 10px 0;
 }
 
@@ -20,10 +25,10 @@
 
 .nav a {
   text-decoration: none;
-  color: #333;
+  color: black;
   font-weight: bold;
 }
 
 .nav a:hover {
-  color: #0066cc;
+  color: gray;
 }

@@ -1,27 +1,33 @@
 import styles from "./Pages.module.css";
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Recipes() {
-  const [selectedRecipe, setSelectedRecipe] = useState<number | null>(null);
+  let navigate = useNavigate();
 
   const recipes = [
-    { id: 1, title: "bice cream", description: "boiled ice cream" },
-    { id: 2, title: "bice bea", description: "unlikely cure to stomach aches" },
-    // { id: 3, title: "Boiled Pasta", description: "The base for many Italian dishes" },
-    // { id: 4, title: "Boiled Rice", description: "Fluffy and delicious every time" },
+    { id: 1, title: "bapple bider", description: "boiled cider" },
+    { id: 2, title: "bice cream v1 [1/28]", description: "boiled ice cream - strawberry cheesecake" },
+    { id: 3, title: "bice bea [1/31]", description: "unlikely cure to stomach aches" },
+    { id: 4, title: "bice cream v2 [2/11]", description: "boiled ice cream - chocolate fudge" }
   ];
+
+  const routeChange = (id: number) => {
+    let path = `/BOILING-BAD/boiling-bad/${id}`;
+    navigate(path);
+  }
 
   return (
     <div className={styles.page}>
-      <h1>recipes</h1>
+      <h1>boiling bad</h1>
+      <p>we're in college and they gave us a stove.</p>
+      <p>we have pots, water, and are not lactose intolerant.</p>
       <div className={styles.timeline}>
         {recipes.map((recipe) => (
           <div key={recipe.id} className={styles.timelineItem}>
             <div className={styles.timelinePoint}></div>
             <div 
               className={styles.timelineContent}
-              onClick={() => setSelectedRecipe(recipe.id)}
+              onClick={() => routeChange(recipe.id)}
             >
               <h3>{recipe.title}</h3>
               <p>{recipe.description}</p>
@@ -29,11 +35,6 @@ function Recipes() {
           </div>
         ))}
       </div>
-      {selectedRecipe && (
-        <Link to={`/recipe/${selectedRecipe}`} className={styles.hiddenLink}>
-          View Full Recipe
-        </Link>
-      )}
     </div>
   );
 }
