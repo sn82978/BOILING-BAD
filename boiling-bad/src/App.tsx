@@ -27,9 +27,9 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/boiling-bad" element={<Recipes />} />
-          <Route path="/music" element={<AboutUs />} />
+          <Route path="/BOILING-BAD" element={<Home />} />
+          <Route path="/BOILING-BAD/boiling-bad" element={<Recipes />} />
+          <Route path="/BOILING-BAD/music" element={<AboutUs />} />
           <Route path="/BOILING-BAD/boiling-bad/1" element={<BappleBider />} />
           <Route path="/BOILING-BAD/boiling-bad/2" element={<BiceCream1 />} />
           <Route path="/BOILING-BAD/boiling-bad/3" element={<BiceBea />} />
