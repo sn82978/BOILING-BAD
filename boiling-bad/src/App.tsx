@@ -15,25 +15,25 @@ function App() {
         <nav className={styles.nav}>
           <ul>
             <li>
-              <Link to="/BOILING-BAD">home</Link>
+              <Link to="/">home</Link>
             </li>
             <li>
-              <Link to="/BOILING-BAD/boiling-bad">boiling bad</Link>
+              <Link to="/boiling-bad">boiling bad</Link>
             </li>
             <li>
-              <Link to="/BOILING-BAD/music">music</Link>
+              <Link to="/music">about us</Link>
             </li>
           </ul>
         </nav>
 
         <Routes>
-          <Route path="/BOILING-BAD" element={<Home />} />
-          <Route path="/BOILING-BAD/boiling-bad" element={<Recipes />} />
-          <Route path="/BOILING-BAD/music" element={<AboutUs />} />
-          <Route path="/BOILING-BAD/boiling-bad/1" element={<BappleBider />} />
-          <Route path="/BOILING-BAD/boiling-bad/2" element={<BiceCream1 />} />
-          <Route path="/BOILING-BAD/boiling-bad/3" element={<BiceBea />} />
-          <Route path="/BOILING-BAD/boiling-bad/4" element={<BiceCream2 />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/boiling-bad" element={<Recipes />} />
+          <Route path="/music" element={<AboutUs />} />
+          <Route path="/boiling-bad/1" element={<BappleBider />} />
+          <Route path="/boiling-bad/2" element={<BiceCream1 />} />
+          <Route path="/boiling-bad/3" element={<BiceBea />} />
+          <Route path="/boiling-bad/4" element={<BiceCream2 />} />
         </Routes>
       </div>
     </Router>
