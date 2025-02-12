@@ -6,7 +6,7 @@ function Home() {
       <div className={styles.page}>
         <h1>tejasvini & shreya</h1>
         <p>free will takes a new form.</p>
-        <img src="/lilcros.jpeg" width="300" height="500" alt="lil cros" />
+        <img src="/lilcros.jpeg" width="640" height="360" alt="lil cros" />
       </div>
     </div>
   )
