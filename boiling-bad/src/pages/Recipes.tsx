@@ -12,7 +12,7 @@ function Recipes() {
   ];
 
   const routeChange = (id: number) => {
-    let path = `/BOILING-BAD/boiling-bad/${id}`;
+    let path = `/boiling-bad/${id}`;
     navigate(path);
   }
 
