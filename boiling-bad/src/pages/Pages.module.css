@@ -51,3 +51,8 @@
 .hiddenLink {
   display: none;
 }
+
+.responsiveImage {
+  width: 50%;
+  height: auto;
+}

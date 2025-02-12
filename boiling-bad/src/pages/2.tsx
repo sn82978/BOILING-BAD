@@ -7,7 +7,7 @@ function BiceCream1() {
             <p>published: january 28, 2025</p>
             <h2>bideo</h2>
             <video width="640" height="360" controls>
-                <source src="/videos/boilingbadep1.mp4" type="video/mp4" />
+                <source src="/BOILING-BAD/videos/boilingbadep1_fixed.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
             <h2>becipe</h2>
