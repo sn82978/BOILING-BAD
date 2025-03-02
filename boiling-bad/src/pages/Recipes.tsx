@@ -35,6 +35,10 @@ function Recipes() {
           </div>
         ))}
       </div>
+      <h2>testimonials</h2>
+      <p>"i love watching your videos you're so funny"</p>
+      <p>"brain rot"</p>
+      <p>"UR REACTION AFTWR WATING IS SO FUNNY"</p>
     </div>
   );
 }
