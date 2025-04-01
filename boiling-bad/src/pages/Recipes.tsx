@@ -1,7 +1,8 @@
 import styles from "./Pages.module.css";
+import Footer from "../components/Footer";
 import { useNavigate } from "react-router-dom";
 
-function Recipes() {
+function RecipesContent() {
   let navigate = useNavigate();
 
   const recipes = [
@@ -41,6 +42,14 @@ function Recipes() {
       <p>"UR REACTION AFTWR WATING IS SO FUNNY"</p>
     </div>
   );
+}
+
+function Recipes() {
+  return (
+  <div>
+    <RecipesContent></RecipesContent>
+    <Footer></Footer>
+  </div>)
 }
 
 export default Recipes;

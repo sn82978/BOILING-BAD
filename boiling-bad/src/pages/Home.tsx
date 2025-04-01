@@ -1,6 +1,7 @@
 import styles from "./Pages.module.css";
+import Footer from "../components/Footer";
 
-function Home() {
+function HomeContent() {
   return (
     <div>
       <div className={styles.page}>
@@ -20,6 +21,14 @@ function Home() {
       </div>
     </div>
   );
+}
+
+function Home() {
+  return (
+  <div>
+    <HomeContent></HomeContent>
+    <Footer></Footer>
+  </div>)
 }
 
 export default Home;

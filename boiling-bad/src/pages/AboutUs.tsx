@@ -1,6 +1,7 @@
 import styles from "./Pages.module.css"
+import Footer from "../components/Footer";
 
-function AboutUs() {
+function AboutUsContent() {
   return (
     <div className={styles.page}>
       <h1>join us</h1>
@@ -10,6 +11,14 @@ function AboutUs() {
       <p>fund us! we are @Shreya-Nakum and @tejasvini_ramesh 👅</p>
     </div>
   )
+}
+
+function AboutUs() {
+  return (
+  <div>
+    <AboutUsContent></AboutUsContent>
+    <Footer></Footer>
+  </div>)
 }
 
 export default AboutUs

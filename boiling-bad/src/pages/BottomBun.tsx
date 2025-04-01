@@ -1,7 +1,8 @@
 import styles from "./Pages.module.css";
 import { useNavigate } from "react-router-dom";
+import Footer from "../components/Footer";
 
-function BottomBun() {
+function BottomBunContent() {
   let navigate = useNavigate();
 
   const recipes = [
@@ -34,6 +35,14 @@ function BottomBun() {
       </div>
     </div>
   );
+}
+
+function BottomBun(){
+  return (
+  <div>
+    <BottomBunContent></BottomBunContent>
+    <Footer></Footer>
+  </div>)
 }
 
 export default BottomBun;

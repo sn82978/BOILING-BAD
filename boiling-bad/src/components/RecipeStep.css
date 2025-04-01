@@ -24,4 +24,11 @@
     padding: 10px 15px;
     flex-grow: 1;
   }
+
+  .footer {
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+   }
   

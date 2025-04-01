@@ -1,6 +1,7 @@
+import Footer from "../components/Footer";
 import RecipeStep from "../components/RecipeStep";
 
-function BiceCream2() {
+function BiceCream2Content() {
     return (
         <div>
             <h1>bice cream v2</h1>
@@ -21,6 +22,14 @@ function BiceCream2() {
             <p>shoutout to ben & jerrys for this buss ice cream</p>
         </div>
     )
+}
+
+function BiceCream2() {
+    return(
+    <div>
+        <BiceCream2Content></BiceCream2Content>
+        <Footer></Footer>
+    </div>)
 }
 
 export default BiceCream2;

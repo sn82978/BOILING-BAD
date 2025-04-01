@@ -1,6 +1,7 @@
 import RecipeStep from "../components/RecipeStep";
+import Footer from "../components/Footer";
 
-function BiceCream1() {
+function BiceCream1Content() {
     return (
         <div>
             <h1>bice cream v1</h1>
@@ -20,6 +21,15 @@ function BiceCream1() {
             <RecipeStep stepNumber={7} content="wait for it to cool and then enjoy!" />
             <h2>shoutouts</h2>
             <p>shoutout to ben & jerrys for this fruity ah ice cream</p>
+        </div>
+    )
+}
+
+function BiceCream1() {
+    return (
+        <div>
+            <BiceCream1Content></BiceCream1Content>
+            <Footer></Footer>
         </div>
     )
 }

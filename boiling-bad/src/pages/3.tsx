@@ -1,6 +1,7 @@
 import RecipeStep from "../components/RecipeStep";
+import Footer from "../components/Footer";
 
-function BiceBea() {
+function BiceBeaContent() {
     return (
         <div>
             <h1>bice bea</h1>
@@ -20,6 +21,15 @@ function BiceBea() {
             <RecipeStep stepNumber={7} content="wait for it to cool and then enjoy!" /> */}
             <h2>shoutouts</h2>
             <p>shoutout to seaside for the ice tea</p>
+        </div>
+    )
+}
+
+function BiceBea() {
+    return (
+        <div>
+            <BiceBeaContent></BiceBeaContent>
+            <Footer></Footer>
         </div>
     )
 }

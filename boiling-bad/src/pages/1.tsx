@@ -1,6 +1,7 @@
 import RecipeStep from "../components/RecipeStep";
+import Footer from "../components/Footer";
 
-function BappleBider() {
+function BappleBiderContent() {
     return (
         <div>
             <h1>bapple bider</h1>
@@ -11,6 +12,15 @@ function BappleBider() {
             <RecipeStep stepNumber={3} content="wait for it to cool and then enjoy!" />
             <h2>shoutouts</h2>
             <p>shoutout to gilmore girls cuz they the reason we did this and started boiling stuff</p>
+        </div>
+    )
+}
+
+function BappleBider() {
+    return (
+        <div>
+            <BappleBiderContent></BappleBiderContent>
+            <Footer></Footer>
         </div>
     )
 }
