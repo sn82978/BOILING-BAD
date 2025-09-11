@@ -10,5 +10,3 @@ this website was after my portfolio, so i added a lot of new changes that i hadn
 
 ## more to add/issues
 we are planning on adding more pages for some of our vlogs and addding more images. some of the images will not load, so i need to figure out how to fix that. 
-
-![IMG_0269_Original](https://github.com/user-attachments/assets/ddcd7652-68c9-4dc3-832c-f60d0d8d9a0b)
