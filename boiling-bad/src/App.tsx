@@ -9,6 +9,8 @@ import AboutUs from "./pages/AboutUs"
 import BottomBun from "./pages/BottomBun"
 import F24 from "./pages/60"
 import styles from "./App.module.css"
+import BillieBean from "./pages/BB"
+import LaVie from "./pages/70"
 
 function App() {
   return (
@@ -26,6 +28,9 @@ function App() {
               <Link to="/bottom-bun">bottom bun</Link>
             </li>
             <li>
+              <Link to="/billie-bean">billie bean</Link>
+            </li>
+            <li>
               <Link to="/about-us">about us</Link>
             </li>
           </ul>
@@ -36,11 +41,13 @@ function App() {
           <Route path="/boiling-bad" element={<Recipes />} />
           <Route path="/bottom-bun" element={<BottomBun />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/billie-bean" element={<BillieBean />} />
           <Route path="/boiling-bad/1" element={<BappleBider />} />
           <Route path="/boiling-bad/2" element={<BiceCream1 />} />
           <Route path="/boiling-bad/3" element={<BiceBea />} />
           <Route path="/boiling-bad/4" element={<BiceCream2 />} />
           <Route path="/bottom-bun/60" element={<F24 />} />
+          <Route path="/billie-bean/70" element={<LaVie />} />
         </Routes>
       </div>
     </Router>
