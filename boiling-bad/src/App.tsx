@@ -8,9 +8,11 @@ import BiceCream2 from "./pages/4"
 import AboutUs from "./pages/AboutUs"
 import BottomBun from "./pages/BottomBun"
 import F24 from "./pages/60"
+import F25 from "./pages/61"
 import styles from "./App.module.css"
 import BillieBean from "./pages/BB"
 import LaVie from "./pages/70"
+import BinkBanther from "./pages/71"
 
 function App() {
   return (
@@ -48,6 +50,8 @@ function App() {
           <Route path="/boiling-bad/4" element={<BiceCream2 />} />
           <Route path="/bottom-bun/60" element={<F24 />} />
           <Route path="/billie-bean/70" element={<LaVie />} />
+          <Route path="/billie-bean/71" element={<BinkBanther />} />
+          <Route path="/bottom-bun/61" element={<F25 />} />
         </Routes>
       </div>
     </Router>

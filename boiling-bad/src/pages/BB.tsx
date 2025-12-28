@@ -6,7 +6,8 @@ function BBContent() {
   let navigate = useNavigate();
 
   const recipes = [
-    { id: 70, title: "Doja Cat: Vie", description: "Our music review of Doja Cat's Vie" }
+    { id: 70, title: "Doja Cat: Vie", description: "Our music review of Doja Cat's Vie" },
+    { id: 71, title: "Pink Pantheress: Fancy That Tour", description: "Concert Clips" }
   ];
 
   const routeChange = (id: number) => {

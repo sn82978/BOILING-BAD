@@ -6,7 +6,8 @@ function BottomBunContent() {
   let navigate = useNavigate();
 
   const recipes = [
-    { id: 60, title: "F23", description: "flying from SNA to SJC" }
+    { id: 60, title: "F23", description: "flying from SNA to SJC" },
+    { id: 61, title: "F25", description: "going to Newport Beach" }
   ];
 
   const routeChange = (id: number) => {
