@@ -13,6 +13,7 @@ import styles from "./App.module.css"
 import BillieBean from "./pages/BB"
 import LaVie from "./pages/70"
 import BinkBanther from "./pages/71"
+import DonnyBoy from "./pages/72.tsx"
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
           <Route path="/bottom-bun/60" element={<F24 />} />
           <Route path="/billie-bean/70" element={<LaVie />} />
           <Route path="/billie-bean/71" element={<BinkBanther />} />
+          <Route path="/billie-bean/72" element={<DonnyBoy />} />
           <Route path="/bottom-bun/61" element={<F25 />} />
         </Routes>
       </div>

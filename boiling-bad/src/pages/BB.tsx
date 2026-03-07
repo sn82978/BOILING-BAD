@@ -7,7 +7,8 @@ function BBContent() {
 
   const recipes = [
     { id: 70, title: "Doja Cat: Vie", description: "Our music review of Doja Cat's Vie" },
-    { id: 71, title: "Pink Pantheress: Fancy That Tour", description: "Concert Clips" }
+    { id: 71, title: "Pink Pantheress: Fancy That Tour", description: "Concert Clips" },
+    { id: 72, title: "Don Toliver: OCTANE", description: "Donny Boy Music Review" }
   ];
 
   const routeChange = (id: number) => {
